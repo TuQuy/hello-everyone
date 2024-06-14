@@ -165,7 +165,7 @@ a {
 }
 a:hover {
   color: #51d3e4;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 
 a:not([href]) {
@@ -6100,6 +6100,11 @@ a.close.disabled {
   background-color: #bd5d38 !important;
 }
 
+.bg-primary-about{
+  background-color: #d1ecf1;
+  border-radius: 6px;
+}
+
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
@@ -10088,17 +10093,29 @@ p.lead {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  height: 3.5rem;
-  width: 3.5rem;
+  height: 48px;
+  width: 48px;
   background-color: #495057;
   color: #fff;
   border-radius: 100%;
-  font-size: 1.5rem;
-  margin-right: 1.5rem;
+  font-size: 48px;
+  margin-right: 5px;
 }
 .social-icons .social-icon:last-child {
   margin-right: 0;
 }
+.social-icons .social-icon:hover {
+  background-color: #007bff;
+}
+
+.social-icons .social-icon:hover {
+  background-color: #bd5d38;
+}
+
+.social-icons .social-icon:hover {
+  background-color: #bd5d38;
+}
+
 .social-icons .social-icon:hover {
   background-color: #bd5d38;
 }
@@ -10131,5 +10148,20 @@ section.resume-section .resume-section-content {
     padding-right: 3rem;
     padding-top: 5rem;
     padding-bottom: 5rem;
+  }
+}
+
+@media (min-width: 768px){
+  .md-width-30{
+    width: 30%;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .sm-width-40 {
+      width: 40%;
+  }
+  .sm-width-be30{
+    width: 30%;
   }
 }
