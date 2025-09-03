@@ -1,0 +1,10 @@
+pages:
+  stage: deploy
+  script:
+    - shopt -s extglob # bật glob pattern nâng cao
+    - cp -r !(public) public/
+  artifacts:
+    paths:
+      - public
+  only:
+    - main
