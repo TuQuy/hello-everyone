@@ -2,7 +2,8 @@ pages:
   stage: deploy
   script:
     - mkdir public
-    - cp -r * public/
+    - shopt -s extglob # bật glob pattern nâng cao
+    - cp -r !(public) public/
   artifacts:
     paths:
       - public
