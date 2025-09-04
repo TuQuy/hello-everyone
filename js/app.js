@@ -1,6 +1,6 @@
 /*! ------------------------------------------------
  * Project Name: Name: Nguyễn Phúc Thiên Tài - This Is Portfolio It's Meee!!
- * Project Description: Hello chào nhau cái rồi mình đi nhậu nhée!
+ * Project Description: Hello chào nhau cái rồi mình đi xem phim nhée!
  * Tags: mix_design, resume, portfolio, personal page, cv, template, one page, responsive, html5, css3, creative, clean
  * Version: 1.0.0
  * Build Date: June 2024
