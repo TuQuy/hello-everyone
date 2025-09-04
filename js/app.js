@@ -1,6 +1,6 @@
 /*! ------------------------------------------------
- * Project Name: Blayden - Personal Portfolio & Resume HTML Template
- * Project Description: Show yourself brightly with Blayden - clean and creative portfolio and resume template!
+ * Project Name: Name: Nguyễn Phúc Thiên Tài - This Is Portfolio It's Meee!!
+ * Project Description: Hello chào nhau cái rồi mình đi nhậu nhée!
  * Tags: mix_design, resume, portfolio, personal page, cv, template, one page, responsive, html5, css3, creative, clean
  * Version: 1.0.0
  * Build Date: June 2024
