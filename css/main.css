@@ -7045,6 +7045,14 @@ form textarea:required:valid {
   }
 }
 
+
+@media (max-width: 480px) {
+  .btn-caption2 {
+    font-size: 16px; /* mobile nhỏ hơn 480px */
+  }
+}
 /* ------------------------------------------------*/
 /* Features Contact Data End */
 /* ------------------------------------------------*/
+
+
