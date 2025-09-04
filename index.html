@@ -51,7 +51,7 @@
       property="og:url"
       content="https://mixdesign.club/themeforest/blayden"
     />
-    <meta property="og:image" content="img/og-image.jpg" />
+    <meta property="og:image" content="img/backgrounds/me.jpg" />
     <!-- Facebook Metadata End -->
 
     <!-- Template Styles Start -->
@@ -3036,6 +3036,28 @@
     <script src="js/gallery-init.js"></script>
     <script src="js/app.js"></script>
     <!-- Load Scripts End -->
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        // Nếu chưa có theme trong localStorage => đặt mặc định là dark
+        if (!localStorage.getItem("theme")) {
+          localStorage.setItem("theme", "dark");
+        }
+
+        // Áp dụng theme
+        if (localStorage.getItem("theme") === "dark") {
+          document.documentElement.classList.add("dark");
+          document
+            .getElementById("color-switcher")
+            .setAttribute("aria-checked", "false");
+        } else {
+          document.documentElement.classList.remove("dark");
+          document
+            .getElementById("color-switcher")
+            .setAttribute("aria-checked", "true");
+        }
+      });
+    </script>
   </body>
 
   <!-- Mirrored from mixdesign.dev/themeforest/blayden/index-demo-1.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 28 May 2025 12:59:51 GMT -->
